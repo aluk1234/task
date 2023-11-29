@@ -1,0 +1,293 @@
+/* 記事一覧 */
+.list-title > h2 {
+  color: #597594;
+  font-size: 26px;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+}
+
+.list-article:hover h2 {
+  color: #eb613d;
+}
+
+.list-article p {
+  margin: 0px;
+}
+
+.alt-clickable:hover {
+  color: #eb613d !important;
+}
+/* 記事一覧ここまで */
+
+/* 記事本文 */
+.blog-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #284155;
+  margin: 0px;
+  padding: 20px 0 0 0;
+  line-height: 1;
+}
+
+.blog-title a {
+  text-decoration: none;
+  color: #284155;
+}
+
+.blog-tag:hover {
+  background: #597594 !important;
+}
+
+.blog-body > h2 {
+  position: relative;
+  font-size: 26px;
+  font-weight: bold;
+  color: #284155;
+  margin-top: 5px;
+  margin-left: 6px;
+}
+
+.blog-body > h2::before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  margin-top: 16px;
+  display: inline-block;
+  width: 5px; /*線の太さ*/
+  height: 30px; /*線の長さ*/
+  background-color: #eb613d; /*線の色*/
+}
+
+.blog-body > h3 {
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+  color: #284155;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+
+.blog-body > h3::before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  margin-top: 14px;
+  display: inline-block;
+  width: 5px; /*線の太さ*/
+  height: 24px; /*線の長さ*/
+  background-color: #597594; /*線の色*/
+}
+
+.blog-body>h4 {
+  position: relative;
+  font-size: 18px;
+  font-weight: bold;
+  color: #eb613d;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+
+.blog-body > p,
+ul,
+ol,
+table {
+  margin-left: 18px;
+  margin-right: 18px;
+  font-size: 16px;
+  color: #284155;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tbody > tr:nth-child(odd) {
+  background-color: #ddd;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 5px 20px;
+}
+
+.blog-body > p {
+  margin-bottom: 30px;
+}
+
+.blog-body > pre {
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+.blog-body > p > img {
+  width: auto;
+  max-width: 100%;
+}
+
+.blog-body > blockquote {
+  position: relative;
+  color: #284155;
+  background-color: #ddd;
+  padding-left: 8px;
+  padding-right: 4px;
+}
+
+.blog-body>blockquote::before {
+  position: absolute;
+  content: '❝';
+  font-size: 24px;
+  top: 0%;
+  left: -20px;
+}
+
+.blog-body>blockquote::after {
+  position: absolute;
+  content: '❞';
+  font-size: 24px;
+  top: 0%;
+  right: -20px;
+}
+
+h2,
+h3,
+h4 {
+  padding-top: 30px;
+  margin-top: -30px;
+}
+
+.youtube {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+.youtube iframe {
+  width: 100%;
+  height: 100%;
+}
+/* 記事本文ここまで */
+
+/* TOC */
+#toc {
+  position: sticky; /*固定する*/
+  position: -webkit-sticky; /*Safari用ベンダープレフィックス*/
+  top: 70px; /*ブラウザの上からの距離*/
+  margin-left: 10px;
+  border-left: thick solid #284155;
+}
+
+#toc > aside > div > a {
+  text-decoration: none;
+  color: #284155;
+}
+
+#toc > aside > div > a:hover {
+  color: #597594;
+}
+
+#toc > aside > div > a:visited {
+  color: #284155;
+}
+
+.toc-h2 {
+  font-weight: bold;
+}
+
+.toc-h3 {
+  margin-left: 16px;
+}
+/* TOCここまで */
+
+/* ブログコメント */
+.blog-comment h2 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #284155;
+  margin: 0px;
+  padding: 0px;
+  line-height: 1;
+}
+
+/* コメント */
+.comment-name-line {
+  margin: 0px;
+}
+
+.comment-name-line .comment-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #284155;
+}
+
+.comment-name-line .comment-name-id {
+  font-size: 16px;
+  color: grey;
+}
+
+.comment-name-line .commented-at {
+  font-size: 14px;
+  color: grey;
+}
+
+.comment-name-line .comment-reply {
+  font-size: 18px;
+  color: #284155;
+  margin-left: 5px;
+}
+
+.comment-body {
+  font-size: 14px;
+  color: #284155;
+  white-space: pre-line;
+  line-height: 1;
+  margin: 0 0 0 10px;
+}
+
+/* 返信 */
+.blog-comment .recomment-name-line {
+  margin: 0px;
+}
+
+.blog-comment .recomment-name-line .recomment-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #284155;
+}
+
+.blog-comment .recomment-name-line .recomment-name-id {
+  font-size: 14px;
+  color: grey;
+}
+
+.blog-comment .recomment-name-line .recommented-at {
+  font-size: 12px;
+  color: grey;
+}
+
+.blog-comment .recomment-body {
+  font-size: 14px;
+  color: #284155;
+  white-space: pre-line;
+  line-height: 1;
+  margin: 0 0 0 24px;
+}
+
+/* フォーム */
+.blog-form-name {
+  display: inline-flex;
+  max-width: 300px;
+}
+
+.blog-form-name p {
+  margin: 6px 5px 5px 5px;
+}
+
+.blog-form-body {
+  color: #284155;
+}
+.blog-form-button {
+  margin-top: 5px;
+}
+
+/* ブログコメントここまで */

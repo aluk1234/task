@@ -1,0 +1,119 @@
+/* カラー配色デザインブックP.140 BLUE STYLISH */
+.bg-blue-stylish-01 {
+    background: #284155 !important;
+  }
+  
+  .bg-blue-stylish-02 {
+    background: #597594 !important;
+  }
+  
+  .bg-blue-stylish-03 {
+    background: #edd8d2 !important;
+  }
+  
+  .bg-blue-stylish-04 {
+    background: #d2dcdc !important;
+  }
+  
+  /* 同系色 - パープル */
+  .bg-blue-stylish-05 {
+    background: #968fb9 !important;
+  }
+  
+  /* 補色 - 赤 */
+  .bg-blue-stylish-06 {
+    background: #8f322b !important;
+  }
+  
+  .bg-blue-stylish-06 {
+    background: #8f322b !important;
+  }
+  
+  .text-blue-stylish-01 {
+    color: #284155 !important;
+  }
+  
+  .text-blue-stylish-02 {
+    color: #597594 !important;
+  }
+  
+  .text-blue-stylish-03 {
+    color: #edd8d2 !important;
+  }
+  
+  .text-blue-stylish-04 {
+    color: #d2dcdc !important;
+  }
+  
+  /* 同系色 - パープル */
+  .text-blue-stylish-05 {
+    color: #968fb9 !important;
+  }
+  
+  /* 補色 - 赤 */
+  .text-blue-stylish-06 {
+    color: #8f322b !important;
+  }
+  /* BLUE STYLISHここまで */
+  
+  /* カラー配色デザインブックP.044 ORANGE POP */
+  .bg-orange-pop-01 {
+    background: #eb613d !important;
+  }
+  
+  .text-orange-pop-01 {
+    color: #eb613d !important;
+  }
+  /* ORANGE POPここまで */
+  
+  /* 共通 */
+  html,
+  body {
+    font-family: "Noto Sans JP";
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .pointer {
+    cursor: pointer;
+  }
+  /* 共通ここまで */
+  
+  /* ヘッダースタイル */
+  .header-style-01 {
+    height: 40px;
+    background-color: white;
+    background-image: url("/static/img/header_style.svg");
+    background-repeat: repeat-x;
+    background-size: 100px 50px;
+  }
+  /* ヘッダースタイルここまで */
+  
+  /* フッタースタイル */
+  .logo {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .copyright {
+    position: absolute;
+    bottom: 0px;
+  }
+  
+  .footer-link > a {
+    text-decoration: none;
+    color: #d2dcdc;
+  }
+  
+  .social-icon {
+    width: 100%;
+    min-width: 30px;
+    max-width: 35px;
+  }
+  /* フッタースタイルここまで */
+  
